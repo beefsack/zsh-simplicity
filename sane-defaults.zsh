@@ -4,11 +4,11 @@ autoload -U compinit && compinit        # Tab completions
 autoload -U promptinit && promptinit    # Prompts
 
 setopt correctall                       # Command correction
-setopt autocd							# Change directory without `cd`
-setopt extendedglob						# Extended globbing, eg. `cp ^*.(tar`
-setopt autopushd						# Make cd work like pushd
+setopt autocd                           # Change directory without `cd`
+setopt extendedglob                     # Extended globbing, eg. `cp ^*.(tar`
+setopt autopushd                        # Make cd work like pushd
 
-alias ls="ls --color=auto"				# ls color
+alias ls="ls --color=auto"              # ls color
 
 # Completion to include menu selection, case insensitive and match in words
 zstyle ':completion:*' menu select
