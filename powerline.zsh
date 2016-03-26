@@ -44,7 +44,7 @@ fi
 local powerline_script="$loc/powerline/bindings/zsh/powerline.zsh"
 if [[ ! -a "$powerline_script" ]]; then
 	echo "Could not find powerline script '$powerline_script'"
-	#return
+	return
 fi
 powerline-daemon -q
 . "$powerline_script"
