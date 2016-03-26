@@ -9,10 +9,10 @@ A set of zsh config files you can use at will. Made for people who want minimal 
 ![Example](http://i.imgur.com/vgybcxF.png)
 
 ```bash
-$ curl https://raw.githubusercontent.com/beefsack/zsh-simplicity/master/zshrc.d.zsh > $HOME/.zshrc
+$ wget -O $HOME/.zshrc https://raw.githubusercontent.com/beefsack/zsh-simplicity/master/zshrc.d.zsh
 $ mkdir -p $HOME/.zshrc.d
-$ curl https://raw.githubusercontent.com/beefsack/zsh-simplicity/master/sane-defaults.zsh > $HOME/.zshrc.d/
-$ curl https://raw.githubusercontent.com/beefsack/zsh-simplicity/master/powerline.zsh > $HOME/.zshrc.d/
+$ cd $HOME/.zshrc.d
+$ wget https://raw.githubusercontent.com/beefsack/zsh-simplicity/master/{sane-defaults,powerline}.zsh
 ```
 
 You may also need to use a [patched font](https://github.com/powerline/fonts) for Powerline to render correctly.
