@@ -25,12 +25,12 @@ You may also need to use a [patched font](https://github.com/powerline/fonts) fo
 
 `sane-defaults.zsh` sets a number of options for zsh to improve experience, including:
 
+* Key definitions for keys such as home, end, insert, delete and arrows.
 * Completion and correction, including the completion menu, case insensitive matches and inside word matches.
 * Allowing changing directory without `cd`.
 * Using a directory stack when using `cd` (`pushd` and `popd`.)
 * Extended globbing.
 * Command history.
-* Various common keyboard shortcuts (home, end, ^R, ^S.)
 
 ## `powerline.zsh`
 
