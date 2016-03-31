@@ -36,15 +36,16 @@ the completion menu.
 
 Saves history to a local file so it persists between sessions.
 
-## `sane-defaults.zsh`
+## `usability.zsh`
 
-`sane-defaults.zsh` sets a number of options for zsh to improve experience,
+`usability.zsh` sets a number of options for zsh to improve usability,
 including:
 
 * Command correction.
 * Allowing changing directory without `cd`.
 * Using a directory stack when using `cd` (`pushd` and `popd`.)
 * Extended globbing.
+* Enabling color for `ls`
 
 ## `nomail.zsh`
 
