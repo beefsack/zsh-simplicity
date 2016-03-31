@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 hash pip 2>/dev/null
 if [[ $? -ne 0 ]]; then
